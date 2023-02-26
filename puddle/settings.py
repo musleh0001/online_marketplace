@@ -21,6 +21,7 @@ INSTALLED_APPS = [
 
 INTERNAL_APPS = [
     "core.apps.CoreConfig",
+    "item.apps.ItemConfig",
 ] + INSTALLED_APPS
 
 MIDDLEWARE = [
