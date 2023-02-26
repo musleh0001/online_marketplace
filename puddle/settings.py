@@ -17,12 +17,11 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-]
 
-INTERNAL_APPS = [
+    # internal app
     "core.apps.CoreConfig",
     "item.apps.ItemConfig",
-] + INSTALLED_APPS
+]
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
